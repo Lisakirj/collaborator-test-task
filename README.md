@@ -2,7 +2,7 @@
 
 Односторінковий застосунок пошуку авіаквитків за [макетом Figma](https://www.figma.com/file/UAxLeUjtV8d3U4CRnO79sR/Untitled?type=design&node-id=1%3A10&mode=design&t=NAgVyJvDhA7rHTCU-1): фільтр за кількістю пересадок, три вкладки сортування і довантаження списку по 5 квитків.
 
-**Демо:** `https://<user>.github.io/collaborator-test-task/` _(з'явиться після першого деплою)_
+**Демо:** `https://lisakirj.github.io/collaborator-test-task/` 
 
 ## Стек
 
