@@ -1,0 +1,25 @@
+@use '../../styles' as *;
+
+.status-message {
+  @include card;
+
+  padding: $space-xl $space-lg;
+  text-align: center;
+
+  &__title {
+    @include text-value;
+
+    margin: 0;
+  }
+
+  &__description {
+    margin: $space-xs 0 0;
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+    color: $color-text-muted;
+  }
+
+  &__action {
+    margin-top: $space-md;
+  }
+}

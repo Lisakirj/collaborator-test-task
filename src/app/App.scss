@@ -1,0 +1,45 @@
+@use '../styles' as *;
+
+.app {
+  padding: $space-xxl $page-gutter;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $space-xxl;
+  }
+
+  &__title {
+    @include visually-hidden;
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: $sidebar-width $content-width;
+    gap: $space-xl;
+    align-items: start;
+    justify-content: center;
+
+    @include below(md) {
+      grid-template-columns: minmax(0, 1fr);
+      gap: $space-lg;
+    }
+  }
+
+  // The filter remains in view while the user scrolls through a long list of tickets
+  &__sidebar {
+    position: sticky;
+    top: $space-lg;
+
+    @include below(md) {
+      position: static;
+    }
+  }
+
+  &__results {
+    display: flex;
+    flex-direction: column;
+    gap: $space-lg;
+    min-width: 0;
+  }
+}

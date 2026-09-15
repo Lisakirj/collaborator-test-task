@@ -1,0 +1,35 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "selector-class-pattern": [
+      "^[a-z][a-z0-9]*(-[a-z0-9]+)*(__[a-z0-9]+(-[a-z0-9]+)*)?(--[a-z0-9]+(-[a-z0-9]+)*)?$",
+      {
+        "resolveNestedSelectors": true,
+        "message": "Expected class selector to follow BEM (block__element--modifier)"
+      }
+    ],
+    "at-rule-disallowed-list": ["import"],
+    "color-named": "never",
+    "color-no-hex": true,
+    "declaration-no-important": true,
+    "function-disallowed-list": ["rgb", "rgba", "hsl", "hsla"],
+    "max-nesting-depth": 3,
+    "selector-max-id": 0,
+    "selector-max-type": 0
+  },
+  "overrides": [
+    {
+      "files": ["src/styles/_variables.scss"],
+      "rules": {
+        "color-no-hex": null,
+        "function-disallowed-list": null
+      }
+    },
+    {
+      "files": ["src/styles/_base.scss"],
+      "rules": {
+        "selector-max-type": null
+      }
+    }
+  ]
+}

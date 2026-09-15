@@ -1,0 +1,96 @@
+// Colors
+$color-page: #f3f7fa;
+$color-surface: #fff; // Primary Colors / White
+$color-primary: #2196f3; // Primary 500
+$color-primary-hover: #1e88e5;
+$color-primary-active: #1976d2;
+$color-text: #4a4a4a; // Primary Content
+$color-text-muted: #a0b0b9; // Secondary Content
+$color-heading: #211c1c;
+$color-border: #dfe5ec; // Secondary Colors / Border
+$color-checkbox-border: #9abbce;
+$color-row-hover: #f1fcff;
+$color-skeleton: #e8eef3;
+$color-skeleton-highlight: #f5f8fa;
+
+// Typography
+$font-family: 'Open Sans', system-ui, sans-serif;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$letter-spacing-caps: 0.5px;
+$font-size-caption: 12px;
+$line-height-caption: 18px;
+$font-size-control: 12px;
+$font-size-control-compact: 11px;
+$line-height-control: 20px;
+$font-size-body: 13px;
+$line-height-body: 20px;
+$font-size-value: 14px;
+$line-height-value: 21px;
+$font-size-price: 24px;
+$font-size-price-compact: 20px;
+$line-height-price: 24px;
+
+// Spacing
+$space-xs: 5px;
+$space-sm: 10px;
+$space-md: 15px;
+$space-lg: 20px;
+$space-xl: 40px;
+$space-xxl: 50px;
+$page-gutter: 16px;
+$filter-padding-top: 14px;
+$filter-title-gap: 8px;
+
+// Sizes
+$page-min-width: 320px;
+$logo-size: 60px;
+$logo-hover-lift: 2px;
+$sidebar-width: 232px;
+$content-width: 502px;
+$control-height: 50px;
+$filter-row-height: 40px;
+$checkbox-size: 20px;
+$checkmark-width: 12px;
+$checkmark-height: 8px;
+$ticket-header-height: 41px;
+$ticket-segment-height: $line-height-caption + $line-height-value;
+$airline-logo-width: 119px;
+$airline-logo-height: 41px;
+$airline-logo-offset: 5px; // logo is 25px from the card's right edge in Figma
+$skeleton-price-width: 120px;
+$border-width: 1px;
+$focus-outline-width: 2px;
+$focus-outline-offset: 2px;
+
+// Radii
+$radius-card: 5px;
+$radius-checkbox: 2px;
+$radius-round: 50%;
+
+// Shadows
+$shadow-card: 0 2px 8px rgb(0 0 0 / 10%);
+$shadow-card-hover: 0 4px 14px rgb(0 0 0 / 14%);
+
+// Logo shadow
+$shadow-logo:
+  0 16px 11px -8px rgb(55 104 142 / 25%),
+  0 1px 11px rgb(55 104 142 / 30%);
+$shadow-logo-hover:
+  0 20px 18px -8px rgb(55 104 142 / 35%),
+  0 2px 14px rgb(55 104 142 / 35%);
+
+// Animations
+$transition-duration: 0.2s;
+$transition-easing: ease-out;
+$skeleton-duration: 1.4s;
+
+// Layers
+$z-index-raised: 1;
+$z-index-focused: 2;
+
+// Breakpoints
+$breakpoints: (
+  sm: 480px,
+  md: 816px,
+);

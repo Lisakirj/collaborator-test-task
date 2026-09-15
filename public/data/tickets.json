@@ -1,0 +1,716 @@
+[
+  {
+    "id": "t01",
+    "price": 25800,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T04:55:00Z",
+        "duration": 1330,
+        "stops": [
+          "AMS"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T13:40:00Z",
+        "duration": 1185,
+        "stops": [
+          "AMS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "price": 15100,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T10:45:00Z",
+        "duration": 1035,
+        "stops": [
+          "HKG",
+          "JNB"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T11:20:00Z",
+        "duration": 2430,
+        "stops": [
+          "HKG",
+          "JNB"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "price": 27200,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T09:10:00Z",
+        "duration": 745,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T19:35:00Z",
+        "duration": 725,
+        "stops": []
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "price": 24500,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T05:40:00Z",
+        "duration": 905,
+        "stops": [
+          "AMS",
+          "FRA",
+          "IST"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T18:45:00Z",
+        "duration": 880,
+        "stops": [
+          "IST",
+          "FRA",
+          "AMS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "price": 28400,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T06:05:00Z",
+        "duration": 600,
+        "stops": [
+          "IST"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T15:45:00Z",
+        "duration": 570,
+        "stops": [
+          "IST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t06",
+    "price": 24300,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T11:50:00Z",
+        "duration": 1985,
+        "stops": [
+          "FRA",
+          "CAI"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T07:45:00Z",
+        "duration": 1890,
+        "stops": [
+          "CAI",
+          "FRA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t07",
+    "price": 23900,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T10:45:00Z",
+        "duration": 675,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T11:20:00Z",
+        "duration": 570,
+        "stops": []
+      }
+    ]
+  },
+  {
+    "id": "t08",
+    "price": 25600,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T03:10:00Z",
+        "duration": 1690,
+        "stops": [
+          "MUC",
+          "VIE",
+          "IST"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T09:35:00Z",
+        "duration": 1575,
+        "stops": [
+          "IST",
+          "VIE",
+          "MUC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t09",
+    "price": 24800,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T08:15:00Z",
+        "duration": 1200,
+        "stops": [
+          "FRA",
+          "IST"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T17:30:00Z",
+        "duration": 825,
+        "stops": [
+          "IST",
+          "FRA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t10",
+    "price": 36800,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T06:15:00Z",
+        "duration": 590,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T21:40:00Z",
+        "duration": 590,
+        "stops": []
+      }
+    ]
+  },
+  {
+    "id": "t11",
+    "price": 26400,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T19:55:00Z",
+        "duration": 1620,
+        "stops": [
+          "AMS",
+          "KWI"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T10:05:00Z",
+        "duration": 1590,
+        "stops": [
+          "KWI",
+          "AMS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t12",
+    "price": 13300,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T10:45:00Z",
+        "duration": 2055,
+        "stops": [
+          "HKG"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T11:20:00Z",
+        "duration": 990,
+        "stops": [
+          "HKG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t13",
+    "price": 29200,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T13:50:00Z",
+        "duration": 1440,
+        "stops": [
+          "FRA",
+          "ATH",
+          "BAH"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T00:45:00Z",
+        "duration": 1395,
+        "stops": [
+          "BAH",
+          "ATH",
+          "FRA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t14",
+    "price": 32900,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T07:30:00Z",
+        "duration": 590,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T14:10:00Z",
+        "duration": 580,
+        "stops": []
+      }
+    ]
+  },
+  {
+    "id": "t15",
+    "price": 30100,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T18:20:00Z",
+        "duration": 780,
+        "stops": [
+          "FRA"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T20:05:00Z",
+        "duration": 760,
+        "stops": [
+          "FRA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t16",
+    "price": 26100,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T20:25:00Z",
+        "duration": 2240,
+        "stops": [
+          "CDG",
+          "MAD",
+          "CAI"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T16:15:00Z",
+        "duration": 2105,
+        "stops": [
+          "CAI",
+          "MAD",
+          "CDG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t17",
+    "price": 21400,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T10:45:00Z",
+        "duration": 1275,
+        "stops": [
+          "HKG",
+          "JNB",
+          "DOH"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T11:20:00Z",
+        "duration": 750,
+        "stops": [
+          "HKG",
+          "JNB",
+          "DOH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t18",
+    "price": 29600,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T13:05:00Z",
+        "duration": 700,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T23:55:00Z",
+        "duration": 695,
+        "stops": []
+      }
+    ]
+  },
+  {
+    "id": "t19",
+    "price": 28900,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T15:25:00Z",
+        "duration": 980,
+        "stops": [
+          "CDG",
+          "IST"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T12:55:00Z",
+        "duration": 1010,
+        "stops": [
+          "IST",
+          "CDG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t20",
+    "price": 25300,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T14:35:00Z",
+        "duration": 575,
+        "stops": [
+          "CDG",
+          "BAH"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T03:20:00Z",
+        "duration": 595,
+        "stops": [
+          "BAH",
+          "CDG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t21",
+    "price": 24900,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T22:40:00Z",
+        "duration": 1510,
+        "stops": [
+          "DOH"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T05:50:00Z",
+        "duration": 1440,
+        "stops": [
+          "DOH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t22",
+    "price": 24700,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T17:05:00Z",
+        "duration": 1870,
+        "stops": [
+          "AMS",
+          "WAW",
+          "MCT"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T21:30:00Z",
+        "duration": 1760,
+        "stops": [
+          "MCT",
+          "WAW",
+          "AMS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t23",
+    "price": 15400,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T10:45:00Z",
+        "duration": 1215,
+        "stops": [
+          "HKG"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T11:20:00Z",
+        "duration": 810,
+        "stops": [
+          "HKG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t24",
+    "price": 34500,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T23:50:00Z",
+        "duration": 630,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T02:15:00Z",
+        "duration": 655,
+        "stops": []
+      }
+    ]
+  },
+  {
+    "id": "t25",
+    "price": 27500,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T01:30:00Z",
+        "duration": 1105,
+        "stops": [
+          "MUC",
+          "DOH"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T22:10:00Z",
+        "duration": 1060,
+        "stops": [
+          "DOH",
+          "MUC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t26",
+    "price": 27900,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T12:30:00Z",
+        "duration": 905,
+        "stops": [
+          "CDG"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T09:15:00Z",
+        "duration": 880,
+        "stops": [
+          "CDG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t27",
+    "price": 24100,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T09:25:00Z",
+        "duration": 2385,
+        "stops": [
+          "CDG",
+          "FCO",
+          "KWI"
+        ]
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T14:50:00Z",
+        "duration": 2210,
+        "stops": [
+          "KWI",
+          "FCO",
+          "CDG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t28",
+    "price": 31400,
+    "carrier": "A4E",
+    "segments": [
+      {
+        "origin": "LHR",
+        "destination": "DXB",
+        "date": "2026-10-01T16:40:00Z",
+        "duration": 615,
+        "stops": []
+      },
+      {
+        "origin": "DXB",
+        "destination": "LHR",
+        "date": "2026-10-15T06:25:00Z",
+        "duration": 715,
+        "stops": []
+      }
+    ]
+  }
+]

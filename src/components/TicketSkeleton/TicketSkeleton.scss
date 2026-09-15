@@ -1,0 +1,63 @@
+@use '../../styles' as *;
+
+@keyframes ticket-skeleton-shimmer {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+.ticket-skeleton {
+  @include card;
+
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  padding: $space-lg;
+
+  @include below(sm) {
+    padding: $space-md;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: $ticket-header-height;
+    margin-bottom: $space-md - $space-sm;
+  }
+
+  &__bone {
+    display: block;
+    background: linear-gradient(
+        90deg,
+        $color-skeleton 25%,
+        $color-skeleton-highlight 50%,
+        $color-skeleton 75%
+      )
+      0 0 / 400% 100%;
+    border-radius: $radius-checkbox;
+
+    @include motion-safe {
+      animation: ticket-skeleton-shimmer $skeleton-duration ease-in-out infinite;
+    }
+
+    &--price {
+      width: $skeleton-price-width;
+      height: $line-height-price;
+    }
+
+    &--logo {
+      width: $airline-logo-width;
+      height: $airline-logo-height;
+      margin-right: $airline-logo-offset;
+    }
+
+    &--segment {
+      height: $ticket-segment-height;
+    }
+  }
+}

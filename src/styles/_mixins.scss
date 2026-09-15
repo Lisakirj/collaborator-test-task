@@ -1,0 +1,79 @@
+@use 'sass:map';
+@use 'variables' as *;
+
+// Desktop-first: base styles match the design, and the mixin adapts them for smaller screens
+@mixin below($breakpoint) {
+  @if not map.has-key($breakpoints, $breakpoint) {
+    @error 'Unknown breakpoint: #{$breakpoint}';
+  }
+
+  @media (width < #{map.get($breakpoints, $breakpoint)}) {
+    @content;
+  }
+}
+
+@mixin motion-safe {
+  @media (prefers-reduced-motion: no-preference) {
+    @content;
+  }
+}
+
+// Smooth transitions for users who allow animations
+@mixin transition($properties...) {
+  @include motion-safe {
+    transition-duration: $transition-duration;
+    transition-property: $properties;
+    transition-timing-function: $transition-easing;
+  }
+}
+
+@mixin focus-ring {
+  outline: $focus-outline-width solid $color-primary;
+  outline-offset: $focus-outline-offset;
+}
+
+// Visually hidden but accessible to screen readers
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@mixin card {
+  background-color: $color-surface;
+  border-radius: $radius-card;
+  box-shadow: $shadow-card;
+}
+
+// "LHR – DXB", "В ДОРОЗІ", "1 ПЕРЕСАДКА"
+@mixin text-caption {
+  font-size: $font-size-caption;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-caption;
+  color: $color-text-muted;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-caps;
+}
+
+// "10:45 – 08:00", "34г 15хв", "HKG".
+@mixin text-value {
+  font-size: $font-size-value;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-value;
+  color: $color-text;
+}
+
+// Tab & button text
+@mixin text-control {
+  font-size: $font-size-control;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-control;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-caps;
+}

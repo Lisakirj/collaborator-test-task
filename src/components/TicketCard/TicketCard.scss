@@ -1,0 +1,82 @@
+@use '../../styles' as *;
+
+.ticket {
+  @include card;
+
+  padding: $space-lg;
+
+  @include transition(box-shadow);
+
+  @include below(sm) {
+    padding: $space-md;
+  }
+
+  &:hover {
+    box-shadow: $shadow-card-hover;
+  }
+
+  &__header {
+    display: flex;
+    gap: $space-sm;
+    align-items: center;
+    justify-content: space-between;
+    min-height: $ticket-header-height;
+    margin-bottom: $space-md;
+  }
+
+  &__price {
+    margin: 0;
+    font-size: $font-size-price;
+    font-weight: $font-weight-semibold;
+    line-height: $line-height-price;
+    color: $color-primary;
+    white-space: nowrap;
+
+    @include below(sm) {
+      font-size: $font-size-price-compact;
+    }
+  }
+
+  &__logo {
+    flex-shrink: 0;
+    width: $airline-logo-width;
+    height: $airline-logo-height;
+    margin-right: $airline-logo-offset;
+    object-fit: contain;
+  }
+
+  &__carrier {
+    @include text-caption;
+
+    margin: 0;
+  }
+
+  &__segment {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: $space-lg;
+
+    @include below(sm) {
+      column-gap: $space-sm;
+    }
+
+    & + & {
+      margin-top: $space-sm;
+    }
+  }
+
+  &__cell {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    @include text-caption;
+  }
+
+  &__value {
+    @include text-value;
+
+    overflow-wrap: anywhere;
+  }
+}

@@ -1,0 +1,26 @@
+@use '../../styles' as *;
+
+// Shadow is set here, not in SVG, so it can be changed when hovering
+.logo {
+  display: block;
+  width: $logo-size;
+  height: $logo-size;
+  border-radius: $radius-round;
+  box-shadow: $shadow-logo;
+
+  @include transition(box-shadow, transform);
+
+  &:hover {
+    box-shadow: $shadow-logo-hover;
+    transform: translateY(-$logo-hover-lift);
+  }
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+}

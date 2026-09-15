@@ -1,0 +1,20 @@
+@use '../../styles' as *;
+
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-lg;
+
+  &__announcement {
+    @include visually-hidden;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: $space-lg;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
